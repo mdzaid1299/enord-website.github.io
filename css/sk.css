@@ -1,0 +1,38 @@
+.clients-section {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 20px;
+    overflow: hidden;
+  }
+  
+  .clients-container {
+    display: flex;
+    animation: slide 15s linear infinite;
+  }
+  
+  .client {
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  
+  .client img {
+      height: 50px;
+      width: 50px;
+      max-width: 100%;
+    transition: transform 0.3s ease;
+  }
+  
+  .client:hover img {
+    transform: scale(1.1);
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
