@@ -52,8 +52,8 @@
   }
   .slider .slide-track {
     background-color: #191919;
-    -webkit-animation: scroll 40s linear infinite;
-            animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 10s linear infinite;
+            animation: scroll 10s linear infinite;
     display: flex;
     width: calc(250px * 14);
   }
