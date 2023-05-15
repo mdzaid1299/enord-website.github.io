@@ -24,12 +24,13 @@
     }
   }
   .slider {
-    background: rgb(41, 28, 28);
+    background: #191919;
     box-shadow: 0 10px 20px -5px rgba(196, 163, 163, 0.125);
-    height: 130px;
+    height: 100px;
     margin: auto;
     overflow: hidden;
     position: relative;
+    padding-left: 100px;
     width: 1150px;
   }
   .slider::before {
